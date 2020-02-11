@@ -1,6 +1,7 @@
 class Dog  
   attr_accessor :name
   attr_reader :breed 
+ 
   @@all = []
   
 def self.all
